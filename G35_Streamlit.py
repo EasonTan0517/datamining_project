@@ -238,6 +238,7 @@ if page == "Exploratory Data Analysis":
     external_weather_dataset['weather'].value_counts(
         normalize=True, dropna=False)
     df = pd.concat([df, external_weather_dataset], axis=1)
+    st.write("# Exploratory Data Analysis and Data Pre-Processing")
     st.write("### Remove Uninterested Attributes")
     # 1. Make a copy of the original dataset
     df_temp = df.copy()
