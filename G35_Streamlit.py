@@ -231,6 +231,7 @@ lnr_metric6 = report_metric1(lnr_m6pred, ry_test, "Linear Regression")
 if page == "Exploratory Data Analysis":
     # EDA
     st.write("# Project")
+    st.write("Group members:")
     st.write('(1) 1191302247 Tan Yi Chuan')
     st.write("(2) 1191302309 Tan Yee Chuan")
     st.write("(3) 1191302166 Cheok Yi Xuan")
